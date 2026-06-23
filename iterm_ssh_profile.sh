@@ -2,6 +2,7 @@
 
 # Auxiliary script for iTerm2 that automates VPN and SSH connectivity. It establishes a VPN
 # connection before initiating the SSH session and disconnects it automatically when the session ends.
+# Can be executed either as part of an iTerm2 profile or as a standalone script.
 
 # Due to iTerm2 limitations the $PATH environment variable can not be checked. Specifying
 # the absolute path to the Tailscale binary instead:
